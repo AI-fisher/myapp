@@ -7,7 +7,12 @@
     <router-view/>
   </div>
 </template>
-
+sadsaadas
+<script>
+export default {
+ sadadaas
+}
+</script>
 <style lang="scss">
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
