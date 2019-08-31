@@ -1,19 +1,19 @@
 <template>
     <div id='app'>
         <div class="header">
-            <button class="home">首页</button>
+            <button class="home">返回</button>
         </div>
         <div class="container">
-            <h1>登录后可查看我的主页</h1>
+            <h1>手机密码登录</h1>
             <div class="phonenum">
                 <input type="text" value="输入手机号" class="phone">
-                <input type='text' value="请输入验证码" class="four">
+                <input type='text' value="请输入密码" class="four">
             </div>
             <div class="sure">
                 <button class="confirm">确定</button>
             </div>
             <div class="password">
-                <p>立即注册</p>
+                <p>验证码登录</p>
             </div>
         </div>
         <div class="footer">
@@ -88,7 +88,7 @@
                     @include rect(100%,auto);
                     p{
                         @include display(block);
-                        @include rect(56px,20px);
+                        @include rect(70px,20px);
                         @include margin(10px auto);
                     }
                 }

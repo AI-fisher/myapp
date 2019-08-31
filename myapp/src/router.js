@@ -19,13 +19,13 @@ export default new Router({
         default: () => import('@/views/register/index.vue')
       }
     },
-    /*{ // 登录
+    { // 登录
       path: '/login',
       name: 'login',
       components: {
         default: () => import('@/views/login/index.vue')
       }
-    },*/
+    },
     { // 首页
       path: '/home',
       // alias: '/h',
