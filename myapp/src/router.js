@@ -12,20 +12,20 @@ export default new Router({
       path: '/',
       redirect: '/home'
     },
-    { // 注册页面
+    { // 注册
       path: '/register',
       name: 'register',
       components: {
         default: () => import('@/views/register/index.vue')
       }
     },
-    { // 登录
+    /*{ // 登录
       path: '/login',
       name: 'login',
       components: {
         default: () => import('@/views/login/index.vue')
       }
-    },
+    },*/
     { // 首页
       path: '/home',
       // alias: '/h',

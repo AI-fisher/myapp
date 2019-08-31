@@ -2,19 +2,18 @@
     <footer class="footer">
         <ul>
             <router-link to="/home" tag="li">
-                <span class="iconfont icon-shouye"></span>
+                <span class="iconfont icon-shouyeshouye"></span>
                 <p>首页</p>
             </router-link>
             <router-link to="/store" tag="li">
-                <span class="iconfont icon-icon"></span>
+                <span class="iconfont icon-weishangchen"></span>
                 <p>商城</p>
             </router-link>
             <router-link to="/add" tag="li">
-                <span class="iconfont icon-tuanduicankaoxian-"></span>
-                <p>+</p>
+                <h1 class="iconfont icon-jia"></h1>
             </router-link>
             <router-link to="/info" tag="li">
-                <span class="iconfont icon-wode"></span>
+                <span class="iconfont icon-xiaoxi"></span>
                 <p>消息</p>
             </router-link>
             <router-link to="/user" tag="li">
@@ -26,11 +25,9 @@
 </template>
 
 <script>
-    export default {
-        name: "Footer"
-    }
+export default {
+}
 </script>
 
-<style scoped>
-
+<style lang="scss">
 </style>
